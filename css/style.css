@@ -10,8 +10,8 @@ header {
     width: 100%;
     height: 12.5rem;
     display: flex;
-    /* position: sticky;
-    top: 0; */
+    position: sticky;
+    top: 0;
     justify-content: space-between;
     align-items: center;
     background-color: #263248;
@@ -110,6 +110,7 @@ main{
     ;
 }
 
+
 .art1{
     grid-area: art1;
     /* background-color: aqua; */
@@ -121,6 +122,7 @@ main{
     margin-top: 1.25rem;
     margin-left: 3.125rem;
     border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
 }
 
 .art2{
@@ -132,7 +134,7 @@ main{
 
 .art3{
     grid-area: art3;
-    /* background-color: rgba(162, 0, 255, 0.555); */
+    /* background-color: rgba(162, 0, 255, 0.555);  */
 }
 
 .art3 p{
@@ -157,7 +159,8 @@ main{
 
 .art4{
     grid-area: art4;
-    /* background-color: rgb(50, 148, 63); */
+    /* background-color: rgb(50, 148, 63);  */
+    background-color:white;
 }
 
 .art4 img{
@@ -166,17 +169,22 @@ main{
     margin-top: 1.25rem;
     margin-left: 3.125rem;
     border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
 }
 .art5{
     grid-area: art5;
     /* background-color: rgb(138, 167, 33); */
     font-family: "Roboto", sans-serif;
     padding-top: 2.5rem;
+    padding-left: 1.25rem;
+    background-color:white;
 }
 
 .art6{
     grid-area: art6;
-    /* background-color: rgb(255, 0, 21); */
+    /* background-color: rgb(255, 0, 21);  */
+    padding-left: 1.25rem;
+    background-color:white;
 }
 
 .art6 p{
@@ -211,7 +219,7 @@ main{
     margin-top: 1.25rem;
     margin-left: 3.125rem;
     border-radius: 1.5625rem;
-
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
 }
 
 .art8{
@@ -247,14 +255,153 @@ main{
 
 /* Footer */
 
-footer{
+footer {
 width: 100%;
-height: 12.5rem;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-gap: 3.125rem;
+height: 18.75rem;
 background-color: #263248;
 color: aliceblue;
 
+}
+
+footer .sec1{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+}   
+
+.carreras{
+    margin-left: 40.625rem;
+}
+
+.carreras h4{
+    text-align: center;
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .9375rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+}
+
+.carreras li a{
+    color: #EEF5FF;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    text-decoration: none;
+} 
+
+.contacto{
+    margin-bottom: .9375rem;
+}
+
+.contacto h4{
+    text-align: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .9375rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+
+.contacto p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+
+.contacto div{
+    display: flex;
+    text-align: center;
+    
+}   
+.contacto div img{
+    width: .9375rem;
+    height: .9375rem;
+
+}
+
+.contacto div p{
+    padding-left: .625rem;
+    
+}
+
+.instrumentoslist{
+    margin-bottom: 2.375rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.instrumentoslist h4{
+    text-align: center;
+    margin-top: 1.875rem;
+    /* margin-bottom: .625rem; */
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .9375rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+
+
+.instrumentoslist li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+    
+}
+
+.instrumentoslist li a{
+
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    
+}
+
+
+.logosContacto{
+    margin-top: 12.5rem;
+    margin-left: 25rem;
+    
+} 
+
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 div{
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+}
+
+.sec2 div img{
+    width: .9375rem;
+    height: .9375rem;
+    margin: 0% .125rem;
+}
+
+.sec3{
+    display: flex;
+    justify-content: center;
+}
+
+.sec3 div {
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
 }
