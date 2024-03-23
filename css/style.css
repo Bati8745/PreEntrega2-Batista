@@ -119,6 +119,7 @@ main{
 .art1{
     grid-area: art1;
     /* background-color: aqua;  */
+    border-top: #344564 solid;
 }
 
 .art1 img{
@@ -165,7 +166,7 @@ main{
 .art4{
     grid-area: art4;
     /* background-color: rgb(50, 148, 63);   */
-    background-color:white;
+    border-top: #344564 solid;
 }
 
 .art4 img{
@@ -182,14 +183,14 @@ main{
     font-family: "Roboto", sans-serif;
     padding-top: 2.5rem;
     padding-left: 1.25rem;
-    background-color:white;
+
 }
 
 .art6{
     grid-area: art6;
     /* background-color: rgb(255, 0, 21);  */
     padding-left: 1.25rem;
-    background-color:white;
+
 }
 
 .art6 p{
@@ -215,7 +216,7 @@ main{
 .art7{
     grid-area: art7;
     /* background-color: rgb(68, 0, 255);    */
-    background-color: #F5F7F8;
+    border-top: #344564 solid;
 }
 
 .art7 img{
@@ -412,6 +413,7 @@ footer .sec1{
 }
 
 
+
 /* Responsive: Index */
 
 
@@ -420,20 +422,41 @@ footer .sec1{
 
 @media (max-width: 2560px){
 
+/* Corrección seccion bienvenida */ 
+
 header{
     position:relative;
-
 }  
+
+header div img{
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: 1.25rem;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: rgba(242, 243, 243, 0.932);
+    list-style: none;
+    font-size: 1.25rem;
+}
 
 /* Corrección seccion bienvenida */
 
 .seccionBienvenida h2{
         margin-top: 1.25rem;
-        margin-left: -46.875rem;
+        margin-left: -43.75rem;
         font-size: 1.4375rem;
         font-style: italic;
         color: rgba(0, 0, 0, 0.548);
         text-shadow: .0625rem .1875rem .3125rem rgba(0, 0, 0, 0.226);
+}
+
+.seccionBienvenida button{
+    font-size: 1.125rem;
+    padding: 1.875rem;
+    margin-right: 12.5rem;
+
 }
 
 /* Corrección seccion Principal */
@@ -473,7 +496,7 @@ header{
 }
 
 .art3 div button {/* Caracteristicas botón 1 */
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
     padding: 1.875rem 3.125rem;
 }
 
@@ -495,7 +518,7 @@ header{
 }
 
 .art6 div button {/* Caracteristicas botón 2 */
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
     padding: 1.875rem 3.125rem;
 }
 
@@ -517,7 +540,7 @@ header{
 }
 
 .art9 div button {/* Caracteristicas botón 3 */
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
     padding: 1.875rem 3.125rem;
 }
 
@@ -530,15 +553,29 @@ footer .sec1{
 }
 }
 
-/* 1440px */
 
-/* Corrección seccion bienvenida */
+/* 1440px */
 
 @media (max-width:1440px){
 
+/* Corrección Header */
+
+header div img{
+    width: 12.5rem;
+    height: 12.5rem;
+    margin-left: 1.25rem;
+}
+
+.navBar ul {
+    gap: 3.75rem;
+    
+}
+
+/* Corrección seccion bienvenida */
+
 .seccionBienvenida h2{
         margin-top: 1.25rem;
-        margin-left: -15.625rem;
+        margin-left: -12.5rem;
         font-size: 1.0625rem;
         font-style: italic;
         color: rgba(0, 0, 0, 0.548);
@@ -590,11 +627,6 @@ footer .sec1{
     padding: 1.25rem 2.5rem;
 }
 
-.art4{
-    background-color: white;
-}
-
-
 .art4 img{ /* Imagen 2 */
     width: 90%;
     height: 77%;
@@ -617,7 +649,7 @@ footer .sec1{
 }   
 
 .art6 div{ /* Movimiento botón 2 */
-    margin-bottom: 1.5625rem;
+    /* margin-bottom: 1.5625rem; */
     padding-left: 31.25rem;
 }
 
@@ -659,4 +691,305 @@ footer .sec1{
     padding: 1.25rem 2.5rem;
 
 }
+
+/* Corrección seccion Footer */
+
+footer{
+    width: 100%;
+}
+
+
+footer .sec1{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 3.125rem;
+    padding-left: 0rem;
+
+}
+
+.carreras{
+    margin-left: 31.25rem;
+}
+
+
+.logosContacto{
+    margin-top: 12.5rem;
+    padding-left: 15.625rem;
+    margin-left: 0rem;
+
+}
+}
+
+/* 1024px */
+
+@media (max-width:1024px){
+
+/* Corrección Header */
+
+.navBar ul {
+    gap: 3.125rem;
+    margin-top: 3.75rem;
+    margin-right: 3.125rem; ;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+    
+.navBar ul li a{
+    text-decoration: none;
+    color: rgba(242, 243, 243, 0.932);
+    list-style: none;
+    font-size: .9375rem;
+}
+
+/* Corrección seccion Bienvenida */
+
+.seccionBienvenida{
+    padding-top: .625rem;
+    padding-left: 1.875rem;
+
+}
+
+
+.seccionBienvenida h1{
+    font-size: 1.875rem;
+    padding-right: 1.25rem;
+
+}
+
+.seccionBienvenida h2{
+    margin-top: .9375rem;
+    margin-left: -4.375rem;
+    font-size: .9375rem;
+    font-style: italic;
+}
+
+.seccionBienvenida button{
+    padding: .625rem;
+    border-radius: .625rem;
+    margin-right: 3.125rem;
+    font-size: .9375rem;
+    font-family: "Roboto", sans-serif
+}
+
+/* Corrección seccion Principal */
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2.5rem 21.875rem 2.5rem 21.875rem 2.5rem 21.875rem;
+    grid-template-areas: 
+    "art1 art1 art2 art2"
+    "art1 art1 art3 art3"
+    "art5 art5 art4 art4"
+    "art6 art6 art4 art4"
+    "art7 art7 art8 art8"
+    "art7 art7 art9 art9"
+    ;
+}
+
+.art1{
+    grid-area: art1;
+    /* background-color: aqua;  */
+}
+
+.art1 img{
+    margin-top: 1.5625rem;
+    margin-left: 2.1875rem;
+}
+
+.art2{ 
+    grid-area: art2;
+    /* background-color: rgba(0, 255, 255, 0.247);  */
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+    margin-left: .625rem;
+    padding: 0rem;
+}
+
+.art3{ 
+    grid-area: art3;
+    /* background-color: rgba(162, 0, 255, 0.555);  */
+    padding-top: 1.25rem;
+    font-size: .6875rem;
+
+}
+
+.art3 p{
+    padding: 1.25rem 1.25rem 0rem 1.25rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.art3 div{
+    padding-left: 25rem;
+    
+}
+
+.art3 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+
+}   
+
+.art4{
+    grid-area: art4;
+    /* background-color: rgb(50, 148, 63);   */
+    
+    
+}
+
+.art4 img{
+    margin-top: 1.5625rem;
+    margin-left: 1.5625rem;
+}
+.art5{
+    font-size: 1rem;
+    padding-top: .3125rem;
+}
+
+.art6{
+    padding-top: 1.25rem;
+    font-size: .6875rem;
+}
+
+.art6 p{
+    padding: 0rem 1.25rem 1.25rem .625rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.art6 div{
+    padding-top: 0rem;
+    padding-left: 25rem;
+    margin-bottom: 0rem;
+
+}
+
+.art6 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+
+}   
+
+.art7{
+    grid-area: art7;
+    /* background-color: rgb(68, 0, 255);    */
+}
+
+.art7 img{
+    margin-top: 1.25rem;
+    margin-left: 1.875rem;
+}
+
+.art8{
+    grid-area: art8;
+    /* background-color: rgb(0, 195, 255);  */
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    padding: 0rem;
+    margin-top: 1.25rem;
+    margin-left: .625rem;
+}
+
+.art9{
+    grid-area: art9;
+    /* background-color: rgb(255, 0, 119); */
+    padding-top: 1.25rem;
+    font-size: .6875rem;
+}
+
+.art9 div{
+    padding-left: 25rem;
+}
+
+.art9 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+}
+
+/* Corrección Footer */
+
+footer .sec1{
+    gap: 6.25rem;
+}   
+    
+.carreras{
+    margin-left: 15.625rem;
+}
+    
+.carreras h4{
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+    
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+}
+    
+.carreras li a{
+    font-size: .625rem;
+} 
+    
+.contacto{
+    margin-bottom: .9375rem;
+}
+    
+.contacto h4{
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+    
+.contacto p{
+    font-size: .625rem;
+    margin-bottom: 1rem;
+}
+    
+.contacto div p{
+    padding-left: .625rem;
+    
+}
+    
+.instrumentoslist{
+    margin-bottom: 2.375rem;
+}
+    
+.instrumentoslist h4{
+    margin-top: 1.6875rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+    
+.instrumentoslist ul{
+    margin-top: .625rem;
+}
+
+.instrumentoslist li{
+    padding-top: .3125rem;
+        
+}
+    
+.instrumentoslist li a{
+    font-size: .625rem;
+        
+}
+
+.logosContacto{
+    margin-top: 12.5rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+.sec2 p{
+    font-size: .625rem;
+}
+
+.sec3 p{
+    font-size: .625rem;
+}
+
 }
