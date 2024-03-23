@@ -73,14 +73,19 @@ main{
 
 .seccionBienvenida h1{
     font-size: 2.8125rem;
+    color: #263248;
+    border-right: .1875rem solid #2632489a;
+    padding-right: 1.25rem;
+    text-shadow: .0625rem .0625rem .125rem #263248b7;
 }
 
 .seccionBienvenida h2{
     margin-top: 1.25rem;
-    margin-left: 12.5rem;
-    font-size: 1.25rem;
+    margin-left: -26.875rem;
+    font-size: 1.4375rem;
     font-style: italic;
     color: rgba(0, 0, 0, 0.548);
+    text-shadow: .0625rem .1875rem .3125rem rgba(0, 0, 0, 0.226);
 }
 
 .seccionBienvenida button{
@@ -113,7 +118,7 @@ main{
 
 .art1{
     grid-area: art1;
-    /* background-color: aqua; */
+    /* background-color: aqua;  */
 }
 
 .art1 img{
@@ -127,7 +132,7 @@ main{
 
 .art2{
     grid-area: art2;
-    /* background-color: rgba(0, 255, 255, 0.247); */
+    /* background-color: rgba(0, 255, 255, 0.247);  */
     font-family: "Roboto", sans-serif;
     padding-top: 2.5rem;
 }
@@ -159,7 +164,7 @@ main{
 
 .art4{
     grid-area: art4;
-    /* background-color: rgb(50, 148, 63);  */
+    /* background-color: rgb(50, 148, 63);   */
     background-color:white;
 }
 
@@ -209,7 +214,7 @@ main{
 
 .art7{
     grid-area: art7;
-    /* background-color: rgb(68, 0, 255); */    
+    /* background-color: rgb(68, 0, 255);    */
     background-color: #F5F7F8;
 }
 
@@ -224,7 +229,7 @@ main{
 
 .art8{
     grid-area: art8;
-    /* background-color: rgb(0, 195, 255); */
+    /* background-color: rgb(0, 195, 255);  */
     font-family: "Roboto", sans-serif;
     padding-top: 2.5rem;
     background-color: #F5F7F8;
@@ -404,4 +409,254 @@ footer .sec1{
     font-family: "Roboto", sans-serif;
     color: rgba(255, 255, 255, 0.76);
     font-size: .75rem;
+}
+
+
+/* Responsive: Index */
+
+
+
+/* 2560px */
+
+@media (max-width: 2560px){
+
+header{
+    position:relative;
+
+}  
+
+/* Corrección seccion bienvenida */
+
+.seccionBienvenida h2{
+        margin-top: 1.25rem;
+        margin-left: -46.875rem;
+        font-size: 1.4375rem;
+        font-style: italic;
+        color: rgba(0, 0, 0, 0.548);
+        text-shadow: .0625rem .1875rem .3125rem rgba(0, 0, 0, 0.226);
+}
+
+/* Corrección seccion Principal */
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 12.5rem 37.5rem 12.5rem 37.5rem 12.5rem 37.5rem;
+    
+
+}
+
+.art1 img{ /* Imagen 1 */
+    width: 90%;
+    height: 90%;
+    margin-top: 3.125rem;
+    margin-left: 3.125rem;
+    border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
+
+}
+
+.art2{ /* Titulo 1 */
+    font-size: 1.5625rem;
+    margin-top: 3.125rem;
+}
+
+.art3 { /* Texto 1 */
+    width: 100%;
+    height: 100%;
+    font-size: 1.375rem;
+}   
+
+.art3 div{ /* Movimiento botón 1 */
+    padding-top: 1.5625rem;
+    padding-left: 62.5rem;
+}
+
+.art3 div button {/* Caracteristicas botón 1 */
+    font-size: 1.5625rem;
+    padding: 1.875rem 3.125rem;
+}
+
+.art5 { /* Titulo 2 */
+    font-size: 1.5625rem;
+    padding-top: 4.375rem;
+    padding-left: 1.875rem;
+}
+
+.art6 { /* Texto 2 */
+    width: 100%;
+    height: 100%;
+    font-size: 1.375rem;
+} 
+
+.art6 div{ /* Movimiento botón 2 */
+    padding-top: 2.1875rem;
+    padding-left: 62.5rem;
+}
+
+.art6 div button {/* Caracteristicas botón 2 */
+    font-size: 1.5625rem;
+    padding: 1.875rem 3.125rem;
+}
+
+.art8 { /* Titulo 3 */
+    font-size: 1.5625rem;
+    padding-top: 4.375rem;
+    padding-left: 1.875rem;
+}
+
+.art9 { /* Texto 3 */
+    width: 100%;
+    height: 100%;
+    font-size: 1.375rem;
+} 
+
+.art9 div{ /* Movimiento botón 3 */
+    padding-top: 2.1875rem;
+    padding-left: 62.5rem;
+}
+
+.art9 div button {/* Caracteristicas botón 3 */
+    font-size: 1.5625rem;
+    padding: 1.875rem 3.125rem;
+}
+
+
+/* Corrección seccion Footer */
+
+footer .sec1{
+    gap: 15.625rem;
+
+}
+}
+
+/* 1440px */
+
+/* Corrección seccion bienvenida */
+
+@media (max-width:1440px){
+
+.seccionBienvenida h2{
+        margin-top: 1.25rem;
+        margin-left: -15.625rem;
+        font-size: 1.0625rem;
+        font-style: italic;
+        color: rgba(0, 0, 0, 0.548);
+        text-shadow: .0625rem .1875rem .3125rem rgba(0, 0, 0, 0.226);
+}
+
+.seccionBienvenida button{
+    margin-right: 3.125rem;
+}
+
+/* Corrección seccion Principal */
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 6.25rem 28.125rem 6.25rem 28.125rem 6.25rem 28.125rem;
+    
+}
+
+.art1 img{ /* Imagen 1 */
+    width: 90%;
+    height: 80%;
+    margin-top: 3.125rem;
+    margin-left: 2.5rem;
+    border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
+
+}
+
+.art2{ /* Titulo 1 */
+    font-size: 1.0625rem;
+    margin-top: 1.25rem;
+}
+
+.art3 { /* Texto 1 */
+    width: 100%;
+    height: 100%;
+    font-size: .875rem;
+}   
+
+.art3 div{ /* Movimiento botón 1 */
+    padding-top: .9375rem;
+    padding-left: 31.25rem;
+
+}
+
+.art3 div button {/* Caracteristicas botón 1 */
+    font-size: 1.0625rem;
+    padding: 1.25rem 2.5rem;
+}
+
+.art4{
+    background-color: white;
+}
+
+
+.art4 img{ /* Imagen 2 */
+    width: 90%;
+    height: 77%;
+    margin-top: 3.125rem;
+    margin-left: 2.5rem;
+    border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
+
+}
+
+.art5{ /* Titulo 2 */
+    font-size: 1.0625rem;
+    padding-top: -1.5625rem;
+}
+
+.art6 { /* Texto 2 */
+    width: 100%;
+    height: 100%;
+    font-size: .875rem;
+}   
+
+.art6 div{ /* Movimiento botón 2 */
+    margin-bottom: 1.5625rem;
+    padding-left: 31.25rem;
+}
+
+.art6 div button {/* Caracteristicas botón 2 */
+    font-size: 1.0625rem;
+    padding: 1.25rem 2.5rem;
+
+}
+
+.art7 img{ /* Imagen 3 */
+    width: 90%;
+    height: 80%;
+    margin-top: 3.125rem;
+    margin-left: 2.5rem;
+    border-radius: 1.5625rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
+
+}
+
+.art8{ /* Titulo 3 */
+    font-size: 1.0625rem;
+    margin-top: -1.25rem;
+    margin-left: -1.25rem;
+}
+
+.art9 { /* Texto 3 */
+    width: 100%;
+    height: 100%;
+    font-size: .875rem;
+}   
+
+.art9 div{ /* Movimiento botón 3 */
+    padding-top: .9375rem;
+    padding-left: 31.25rem;
+}
+
+.art9 div button {/* Caracteristicas botón 3 */
+    font-size: 1.0625rem;
+    padding: 1.25rem 2.5rem;
+
+}
 }
