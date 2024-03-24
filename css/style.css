@@ -53,7 +53,7 @@ main{
     background-image: url(../assets/img/img-fondo.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
-    
+
 }
 
 /* Seccion de Bienvenida */
@@ -105,7 +105,7 @@ main{
     display: grid;
     grid-template-columns: 43.75rem 1fr 25rem 37.5rem;
     grid-template-rows: 5rem 25rem 5rem 25rem 5rem 25rem;
-    grid-template-areas: 
+    grid-template-areas:
     "art1 art1 art2 art2"
     "art1 art1 art3 art3"
     "art5 art5 art4 art4"
@@ -150,7 +150,7 @@ main{
 
 .art3 div{
     padding-left: 50rem;
-    
+
 }
 
 .art3 div button{
@@ -161,7 +161,7 @@ main{
     border-radius: 2.5rem;
     font-size: 1.0625rem;
 
-}   
+}
 
 .art4{
     grid-area: art4;
@@ -211,7 +211,7 @@ main{
     border-radius: 2.5rem;
     font-size: 1.0625rem;
 
-}   
+}
 
 .art7{
     grid-area: art7;
@@ -275,7 +275,7 @@ footer .sec1{
     justify-content: center;
     align-items: center;
     gap: 6.25rem;
-}   
+}
 
 .carreras{
     margin-left: 40.625rem;
@@ -303,7 +303,7 @@ footer .sec1{
     color: rgba(255, 255, 255, 0.76);
     font-size: .75rem;
     text-decoration: none;
-} 
+}
 
 .contacto{
     margin-bottom: .9375rem;
@@ -331,8 +331,8 @@ footer .sec1{
 .contacto div{
     display: flex;
     text-align: center;
-    
-}   
+
+}
 .contacto div img{
     width: .9375rem;
     height: .9375rem;
@@ -341,7 +341,7 @@ footer .sec1{
 
 .contacto div p{
     padding-left: .625rem;
-    
+
 }
 
 .instrumentoslist{
@@ -365,7 +365,7 @@ footer .sec1{
     text-align: center;
     list-style: none;
     padding-top: .625rem;
-    
+
 }
 
 .instrumentoslist li a{
@@ -374,15 +374,15 @@ footer .sec1{
     list-style: none;
     color: rgba(255, 255, 255, 0.76);
     font-size: .75rem;
-    
+
 }
 
 
 .logosContacto{
     margin-top: 12.5rem;
     margin-left: 25rem;
-    
-} 
+
+}
 
 .sec2{
     display: flex;
@@ -422,11 +422,11 @@ footer .sec1{
 
 @media (max-width: 2560px){
 
-/* Corrección seccion bienvenida */ 
+/* Corrección seccion bienvenida */
 
 header{
     position:relative;
-}  
+}
 
 header div img{
     width: 12.5rem;
@@ -465,7 +465,7 @@ header div img{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 12.5rem 37.5rem 12.5rem 37.5rem 12.5rem 37.5rem;
-    
+
 
 }
 
@@ -488,7 +488,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: 1.375rem;
-}   
+}
 
 .art3 div{ /* Movimiento botón 1 */
     padding-top: 1.5625rem;
@@ -510,7 +510,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: 1.375rem;
-} 
+}
 
 .art6 div{ /* Movimiento botón 2 */
     padding-top: 2.1875rem;
@@ -532,7 +532,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: 1.375rem;
-} 
+}
 
 .art9 div{ /* Movimiento botón 3 */
     padding-top: 2.1875rem;
@@ -568,7 +568,7 @@ header div img{
 
 .navBar ul {
     gap: 3.75rem;
-    
+
 }
 
 /* Corrección seccion bienvenida */
@@ -592,7 +592,7 @@ header div img{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 6.25rem 28.125rem 6.25rem 28.125rem 6.25rem 28.125rem;
-    
+
 }
 
 .art1 img{ /* Imagen 1 */
@@ -614,7 +614,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: .875rem;
-}   
+}
 
 .art3 div{ /* Movimiento botón 1 */
     padding-top: .9375rem;
@@ -646,7 +646,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: .875rem;
-}   
+}
 
 .art6 div{ /* Movimiento botón 2 */
     /* margin-bottom: 1.5625rem; */
@@ -679,7 +679,7 @@ header div img{
     width: 100%;
     height: 100%;
     font-size: .875rem;
-}   
+}
 
 .art9 div{ /* Movimiento botón 3 */
     padding-top: .9375rem;
@@ -734,7 +734,7 @@ footer .sec1{
     list-style: none;
     font-family: "Roboto", sans-serif;
 }
-    
+
 .navBar ul li a{
     text-decoration: none;
     color: rgba(242, 243, 243, 0.932);
@@ -778,7 +778,7 @@ footer .sec1{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 2.5rem 21.875rem 2.5rem 21.875rem 2.5rem 21.875rem;
-    grid-template-areas: 
+    grid-template-areas:
     "art1 art1 art2 art2"
     "art1 art1 art3 art3"
     "art5 art5 art4 art4"
@@ -798,7 +798,7 @@ footer .sec1{
     margin-left: 2.1875rem;
 }
 
-.art2{ 
+.art2{
     grid-area: art2;
     /* background-color: rgba(0, 255, 255, 0.247);  */
     font-family: "Roboto", sans-serif;
@@ -808,7 +808,7 @@ footer .sec1{
     padding: 0rem;
 }
 
-.art3{ 
+.art3{
     grid-area: art3;
     /* background-color: rgba(162, 0, 255, 0.555);  */
     padding-top: 1.25rem;
@@ -823,20 +823,20 @@ footer .sec1{
 
 .art3 div{
     padding-left: 25rem;
-    
+
 }
 
 .art3 div button{
     padding: .3125rem;
     font-size: .75rem;
 
-}   
+}
 
 .art4{
     grid-area: art4;
     /* background-color: rgb(50, 148, 63);   */
-    
-    
+
+
 }
 
 .art4 img{
@@ -869,7 +869,7 @@ footer .sec1{
     padding: .3125rem;
     font-size: .75rem;
 
-}   
+}
 
 .art7{
     grid-area: art7;
@@ -911,71 +911,71 @@ footer .sec1{
 
 footer .sec1{
     gap: 6.25rem;
-}   
-    
+}
+
 .carreras{
     margin-left: 15.625rem;
 }
-    
+
 .carreras h4{
     margin-bottom: .625rem;
     padding-bottom: .625rem;
     font-size: .75rem;
 }
-    
+
 .carreras li{
     text-align: center;
     list-style: none;
     padding-top: .625rem;
 }
-    
+
 .carreras li a{
     font-size: .625rem;
-} 
-    
+}
+
 .contacto{
     margin-bottom: .9375rem;
 }
-    
+
 .contacto h4{
     margin-top: 1.875rem;
     margin-bottom: 1.25rem;
     padding-bottom: .625rem;
     font-size: .75rem;
 }
-    
+
 .contacto p{
     font-size: .625rem;
     margin-bottom: 1rem;
 }
-    
+
 .contacto div p{
     padding-left: .625rem;
-    
+
 }
-    
+
 .instrumentoslist{
     margin-bottom: 2.375rem;
 }
-    
+
 .instrumentoslist h4{
     margin-top: 1.6875rem;
     padding-bottom: .625rem;
     font-size: .75rem;
 }
-    
+
 .instrumentoslist ul{
     margin-top: .625rem;
 }
 
 .instrumentoslist li{
     padding-top: .3125rem;
-        
+
 }
-    
+
 .instrumentoslist li a{
     font-size: .625rem;
-        
+
 }
 
 .logosContacto{
@@ -991,5 +991,937 @@ footer .sec1{
 .sec3 p{
     font-size: .625rem;
 }
+
+}
+
+/* 768px */
+
+@media (max-width:768px){
+
+/* Correción Header */
+
+header {
+    background-color: #263248;
+}
+
+header div img{
+    width: 9.375rem;
+    height: 9.375rem;
+}
+
+.navBar ul {
+    gap: 1.875rem;
+    margin-top: 2.5rem;
+    margin-right: 3.125rem;
+}
+
+.navBar ul li a{
+    font-size: .75rem;
+}
+
+/* Correción seccion Bienvenida */
+
+.seccionBienvenida{
+    padding-top: 0rem;
+    padding-left: .9375rem;
+
+}
+
+
+.seccionBienvenida h1{
+    font-size: 1.5625rem;
+    padding-right: 1.25rem;
+
+}
+
+.seccionBienvenida h2{
+    margin-top: 0rem;
+    margin-left: -1.25rem;
+    font-size: .625rem;
+
+}
+
+.seccionBienvenida button{
+    padding: .4375rem;
+    margin-top: 6.25rem;
+    margin-right: 1.875rem;
+
+}
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2.5rem 25rem 2.5rem 25rem 2.5rem 25rem;
+    grid-template-areas:
+    "art1 art1 art2 art2"
+    "art1 art1 art3 art3"
+    "art5 art5 art4 art4"
+    "art6 art6 art4 art4"
+    "art7 art7 art8 art8"
+    "art7 art7 art9 art9"
+    ;
+}
+
+.art1 img{
+    width: 90%;
+    height: 70%;
+    margin-top: 2.5rem;
+    margin-left: 1.25rem;
+
+}
+
+.art2{
+    grid-area: art2;
+    padding-top: 0rem;
+    font-size: .75rem;
+}
+
+.art3{
+    grid-area: art3;
+
+}
+
+.art3 p{
+    padding: .625rem;
+    font-size: .625rem;
+}
+
+.art3 div{
+    padding: 0;
+    padding-left: 15.625rem;
+    padding-top: 1.25rem;
+}
+
+.art3 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+
+}
+
+.art4 img{
+    width: 90%;
+    height: 70%;
+    margin: 0;
+    margin-top: 1.25rem;
+    margin-right: 3.125rem;
+    margin-left: .9375rem;
+}
+
+.art5{
+    grid-area: art5;
+    padding: .625rem 0rem 0rem 1.25rem;
+    font-size: .75rem;
+
+}
+
+.art6{
+    padding: 0;
+}
+
+.art6 p{
+    padding: .3125rem .625rem 1.875rem 1.25rem;
+    font-size: .625rem;
+}
+
+.art6 div{
+    padding: 0;
+    padding-left: 15.625rem;
+}
+
+.art6 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+
+}
+
+
+.art7 img{
+    width: 90%;
+    height: 70%;
+    margin-top: 2.1875rem;
+    margin-left: 1.25rem;
+
+}
+
+.art8{
+    grid-area: art8;
+    padding: 0;
+    font-size: .75rem;
+}
+
+.art9 {
+    padding: 0;
+}
+
+.art9 p{
+    padding: .3125rem .625rem 1.875rem 1.25rem;
+    font-size: .625rem;
+}
+
+.art9 div{
+    padding: 0;
+    padding-left: 15.625rem;
+
+}
+
+.art9 div button{
+    padding: .3125rem;
+    font-size: .75rem;
+}
+
+/* Corrección Footer */
+
+footer .sec1{
+    gap: 4.375rem;
+}
+
+.carreras{
+    margin: 0;
+    margin-left: 9.375rem;
+}
+
+.carreras h4{
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+}
+
+.carreras li a{
+    font-size: .625rem;
+}
+
+.contacto{
+    margin-bottom: .9375rem;
+}
+
+.contacto h4{
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.contacto p{
+    font-size: .625rem;
+    margin-bottom: 1rem;
+}
+
+.contacto div p{
+    padding-left: .625rem;
+
+}
+
+.instrumentoslist{
+    margin-bottom: 2.375rem;
+}
+
+.instrumentoslist h4{
+    margin-top: 1.6875rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.instrumentoslist ul{
+    margin-top: .625rem;
+}
+
+.instrumentoslist li{
+    padding-top: .3125rem;
+
+}
+
+.instrumentoslist li a{
+    font-size: .625rem;
+
+}
+
+.logosContacto{
+    margin-top: 12.5rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+.logosContacto img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+.sec2 p{
+    font-size: .625rem;
+}
+
+.sec3 p{
+    font-size: .625rem;
+}
+
+}
+
+/* 480px */
+
+@media (max-width:480px){
+
+/* Corrección Header */
+
+header {
+    width: 100%;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.navBar ul {
+    gap: .9375rem;
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+/* Corrección seccion Bienvenida */
+
+.seccionBienvenida{
+    
+    flex-direction: column;
+    padding-top: .625rem;
+    padding-left: 1.25rem;
+
+}
+
+
+.seccionBienvenida h1{
+    font-size: 1.875rem;
+    padding-right: 0;
+    border-right:none;
+
+}
+
+
+.seccionBienvenida h2{
+    margin: 0;
+    margin-bottom: 6.25rem;
+    font-size: 1rem;
+
+}
+
+.seccionBienvenida button{
+position: relative;
+font-size: .875rem;
+padding: .9375rem 1.25rem;
+margin:0;
+bottom: 4.375rem;
+
+}
+
+/* Corrección seccion Principal */
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 23.125rem 5rem 25rem 23.125rem 5rem 25rem 23.125rem 5rem 25rem;
+    grid-template-areas:
+    "art1 art1 art1 art1"
+    "art2 art2 art2 art2"
+    "art3 art3 art3 art3"
+    "art4 art4 art4 art4"
+    "art5 art5 art5 art5"
+    "art6 art6 art6 art6"
+    "art7 art7 art7 art7"
+    "art8 art8 art8 art8"
+    "art9 art9 art9 art9"
+    ;
+}
+
+.art1 img{
+    height: 80%;
+
+}
+
+.art2{
+    margin: 0;
+    margin-top: 1.25rem;
+    margin-left: .625rem;
+}
+
+.art3 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .75rem;
+}
+
+.art3 div{
+    padding: 0;
+    margin-left: 18.75rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art3 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+.art4 img{
+    height: 80%;
+
+}
+
+.art5{
+    margin: 0;
+    padding: 0;
+    margin-left: 4.375rem;
+}
+
+.art6 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .75rem;
+}
+
+.art6 div{
+    padding: 0;
+    margin-left: 18.75rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art6 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+.art7 img{
+    height: 80%;
+
+}
+
+.art8{
+    margin: 0;
+    padding: 0;
+    margin-left: 4.375rem;
+}
+
+.art9 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .75rem;
+}
+
+.art9 div{
+    padding: 0;
+    margin-left: 18.75rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art9 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+/* Corrección Footer */
+
+footer {
+width: 100%;
+height: 18.75rem;
+background-color: #263248;
+color: aliceblue;
+    
+}
+    
+footer .sec1{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+}   
+    
+.carreras{
+    margin:0;
+    margin-left: 5rem;
+}
+    
+.carreras h4{
+    text-align: center;
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+    
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+}
+    
+.carreras li a{
+    color: #EEF5FF;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .625rem;
+    text-decoration: none;
+}
+    
+.contacto{
+    margin-bottom: .9375rem;
+}
+    
+.contacto h4{
+    text-align: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.375rem;
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+    
+.contacto p{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    margin-bottom: 1rem;
+}
+    
+.contacto div{
+    display: flex;
+    text-align: center;
+    
+}
+
+.contacto div img{
+    width: .9375rem;
+    height: .9375rem;
+    
+}
+    
+.contacto div p{
+    padding-left: .625rem;
+    font-size: .625rem;
+    
+}
+    
+.instrumentoslist{
+    margin-bottom: 2.375rem;
+    font-family: "Roboto", sans-serif;
+}
+    
+.instrumentoslist h4{
+    text-align: center;
+    margin-top: 1.875rem;
+    /* margin-bottom: .625rem; */
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
+    
+    
+.instrumentoslist li{
+    text-align: center;
+    list-style: none;
+    padding-top: .4063rem;
+    
+}
+    
+.instrumentoslist li a{
+    
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .625rem;
+    
+}
+    
+    
+.logosContacto{
+    position: relative;
+    top: .3125rem;
+    right: .625rem;
+    /* margin: 0;
+    margin-top: 12.5rem;
+    margin-right: 1.25rem; */
+}
+    
+.sec2{
+    display: flex;
+    justify-content: center;
+    margin-top: .625rem;
+}
+    
+.sec2 div p{
+    font-size: .5rem;
+}
+    
+.sec2 div img{
+    width: .75rem;
+    height: .75rem;
+    margin: 0% .125rem;
+    
+}
+    
+.sec3{
+    display: flex;
+    justify-content: center;
+}
+    
+.sec3 div p{
+    font-size: .5rem;
+}
+
+}
+
+/* 320px */
+
+@media (max-width:320px){
+
+/* Corrección Header */
+
+header {
+    width: 100%;
+    height: 15.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header div img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.navBar ul {
+    margin: 0;
+    position: relative;
+    bottom: 1.25rem;
+
+}
+
+.navBar ul li a {
+    margin: 0;
+    position: relative;
+    left: .625rem;
+    font-size: .5625rem;
+
+}
+
+/* Corrección seccion Bienvenida */
+
+.seccionBienvenida{
+    
+    flex-direction: column;
+    padding-top: .625rem;
+    padding-left: 1.25rem;
+
+}
+
+
+.seccionBienvenida h1{
+    font-size: 1.375rem;
+    padding-right: 0;
+    border-right:none;
+
+}
+
+
+.seccionBienvenida h2{
+    margin: 0;
+    margin-bottom: 6.25rem;
+    font-size: .875rem;
+
+}
+
+.seccionBienvenida button{
+position: relative;
+font-size: .875rem;
+padding: .9375rem 1.25rem;
+margin:0;
+bottom: 4.375rem;
+
+}
+
+/* Corrección seccion principal */
+
+
+.seccionPrincipal{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15.625rem 5rem 31.25rem 15.625rem 5rem 31.25rem 15.625rem 5rem 31.25rem;
+    grid-template-areas:
+    "art1 art1 art1 art1"
+    "art2 art2 art2 art2"
+    "art3 art3 art3 art3"
+    "art4 art4 art4 art4"
+    "art5 art5 art5 art5"
+    "art6 art6 art6 art6"
+    "art7 art7 art7 art7"
+    "art8 art8 art8 art8"
+    "art9 art9 art9 art9"
+    ;
+}
+
+.art1 img{
+    width: 85%;
+    height: 60%;
+
+}
+
+.art2{
+    margin: 0;
+    margin-top: 1.25rem;
+    margin-left: .625rem;
+    font-size: .625rem;
+}
+
+.art3 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .625rem;
+}
+
+.art3 div{
+    padding: 0;
+    margin-left: 6.25rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art3 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+.art4 img{
+    width: 85%;
+    height: 60%;
+    margin-top: 3.125rem;
+}
+
+.art5{
+    margin: 0;
+    margin-top: 1.25rem;
+    margin-left: 1.5625rem;
+    font-size: .625rem;
+}
+
+.art6 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .625rem;
+}
+
+.art6 div{
+    padding: 0;
+    margin-left: 6.25rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art6 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+.art7 img{
+    width: 85%;
+    height: 60%;
+    margin-top: 3.125rem;
+}
+
+.art8{
+    margin: 0;
+    margin-top: 1.25rem;
+    margin-left: 1.5625rem;
+    font-size: .625rem;
+}
+
+.art9 p{
+    padding: 1.25rem;
+    position: relative;
+    bottom: 3.125rem;
+    font-size: .625rem;
+}
+
+.art9 div{
+    padding: 0;
+    margin-left: 6.25rem;
+    position: relative;
+    bottom: 2.1875rem;
+}
+
+.art9 div button {
+    padding: .625rem 1.875rem;
+    font-size: .875rem;
+
+}
+
+/* Corrección Footer */
+
+footer {
+    width: 100%;
+    height: 18.75rem;
+    background-color: #263248;
+    color: aliceblue;
+        
+    }
+        
+    footer .sec1{
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .625rem;
+    }   
+        
+    .carreras{
+        margin:0;
+        margin-left: 1.25rem;
+    }
+        
+    .carreras h4{
+        margin-bottom: .625rem;
+        padding-bottom: .625rem;
+        
+    }
+        
+    .carreras li{
+        text-align: center;
+        list-style: none;
+        padding-top: .3125rem;
+    }
+        
+    .contacto{
+        margin-bottom: 2.5rem;
+    }
+        
+    .contacto h4{
+        margin-top: 1.875rem;
+        margin-bottom: 1.375rem;
+        padding-bottom: .625rem; 
+        border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+    }
+        
+    .contacto p{
+        margin-bottom: .625rem;
+    }
+
+    .contacto div{
+        display: flex;
+        text-align: center;
+        
+    }
+    
+    .contacto div img{
+        width: .9375rem;
+        height: .9375rem;
+        
+    }
+        
+    .contacto div p{
+        padding-left: .625rem;
+        font-size: .625rem;
+        
+    }
+        
+    .instrumentoslist{
+        margin-bottom: 3.75rem;
+        font-family: "Roboto", sans-serif;
+    }
+        
+    .instrumentoslist h4{
+        text-align: center;
+        margin-top: 1.875rem;
+        /* margin-bottom: .625rem; */
+        padding-bottom: .625rem;
+        font-family: "Roboto", sans-serif;
+        color: rgba(255, 255, 255, 0.76);
+        font-size: .75rem;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+    }
+        
+        
+    .instrumentoslist li{
+        text-align: center;
+        list-style: none;
+        padding-top: .4063rem;
+        
+    }
+        
+    .instrumentoslist li a{
+        
+        text-decoration: none;
+        list-style: none;
+        color: rgba(255, 255, 255, 0.76);
+        font-size: .625rem;
+        
+    }
+        
+        
+    .logosContacto{
+        position: relative;
+        top: .3125rem;
+        right: .625rem;
+    }
+        
+    .logosContacto img{
+        width: 1.25rem;
+        height: 1.25rem;
+        display: block;
+    }
+
+    .sec2{
+        display: flex;
+        justify-content: center;
+        margin-top: .625rem;
+    }
+        
+    .sec2 div p{
+        font-size: .3125rem;
+    }
+        
+    .sec2 div img{
+        width: .5625rem;
+        height: .5625rem;
+        margin: 0;
+        margin-bottom: 2px;
+        
+    }
+        
+    .sec3{
+        display: flex;
+        justify-content: center;
+    }
+        
+    .sec3 div p{
+        font-size: .3125rem;
+    }
+    
 
 }
