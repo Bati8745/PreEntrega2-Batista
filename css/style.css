@@ -994,6 +994,265 @@ footer .sec1{
 
 }
 
+/* 1080px */
+
+@media (max-width:1080px){
+
+    /* Header */
+
+header div img{
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.navBar ul {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+    margin-right: 5rem; ;
+
+}
+
+.navBar ul li a{
+    font-size: .9375rem;
+}
+
+/* Corrección seccion Bienvenida */
+
+
+.seccionBienvenida h1{
+    font-size: 2.1875rem;
+    
+}
+
+.seccionBienvenida h2{
+    margin-top: .625rem;
+    margin-left: -1.5625rem;
+    font-size: 1.0625rem;
+
+}
+
+
+.seccionBienvenida button{
+    
+    padding: .9375rem;
+    border-radius: .625rem;
+    margin-right: 1.875rem;
+    box-shadow: .1875rem .1875rem .125rem rgba(0, 0, 0, 0.336);
+}
+
+
+/* Corrección seccion Principal */
+
+.seccionPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 14.0625rem 1fr 1fr;
+    grid-template-rows: 5rem 25rem 5rem 25rem 5rem 25rem;
+    grid-template-areas:
+    "art1 art1 art2 art2"
+    "art1 art1 art3 art3"
+    "art5 art5 art4 art4"
+    "art6 art6 art4 art4"
+    "art7 art7 art8 art8"
+    "art7 art7 art9 art9"
+    ;
+}
+
+.art1 img{
+    width: 90%;
+    height: 75%;
+    margin-top: 2.5rem;
+    margin-left: 1.5625rem; 
+    
+}
+
+.art2{
+
+    padding: 0;
+}
+
+.art3 p{
+    padding: 0;
+    margin-top: 1.875rem;
+    padding-right: 1.25rem;
+    font-size: .75rem;
+    
+}
+
+.art3 div{
+    padding-left: 25rem;
+
+}
+
+.art3 div button{
+    padding: .9375rem;
+    border-radius: 2.5rem;
+    font-size: 1.0625rem;
+
+}
+
+.art4 img{
+    width: 80%;
+    height: 75%;
+    margin-top: 2.5rem;
+    margin-left: 4.375rem; 
+    
+}
+
+.art5{
+
+    padding: 0;
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+}
+
+.art6 p{
+    padding: 0;
+    padding-left: .3125rem;
+    font-size: .75rem;
+    
+}
+
+.art6 div{
+    padding-top: .9375rem;
+    padding-left: 18.75rem;
+
+}
+
+.art6 div button{
+    padding: .9375rem;
+    border-radius: 2.5rem;
+    font-size: 1.0625rem;
+
+}
+
+.art7 img{
+    width: 90%;
+    height: 75%;
+    margin-top: 2.5rem;
+    margin-left: 1.5625rem; 
+    
+}
+
+.art8{
+
+    padding: 0;
+    margin-top: 2.5rem;
+    margin-left: 1.25rem;
+}
+
+.art9 p{
+    padding: 0;
+    padding-right: 1.25rem;
+    font-size: .75rem;
+    
+}
+
+.art9 div{
+    padding-left: 25rem;
+
+}
+
+.art9 div button{
+    padding: .9375rem;
+    border-radius: 2.5rem;
+    font-size: 1.0625rem;
+
+}
+
+/* Corrección Footer */
+
+footer .sec1{
+    gap: 6.25rem;
+}
+
+.carreras{
+    margin-left: 15.625rem;
+}
+
+.carreras h4{
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .625rem;
+}
+
+.carreras li a{
+    font-size: .625rem;
+}
+
+.contacto{
+    margin-bottom: .9375rem;
+}
+
+.contacto h4{
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.contacto p{
+    font-size: .625rem;
+    margin-bottom: 1rem;
+}
+
+.contacto div p{
+    padding-left: .625rem;
+
+}
+
+.instrumentoslist{
+    margin-bottom: 2.375rem;
+}
+
+.instrumentoslist h4{
+    margin-top: 1.6875rem;
+    padding-bottom: .625rem;
+    font-size: .75rem;
+}
+
+.instrumentoslist ul{
+    margin-top: .625rem;
+}
+
+.instrumentoslist li{
+    padding-top: .3125rem;
+
+}
+
+.instrumentoslist li a{
+    font-size: .625rem;
+
+}
+
+.logosContacto{
+    margin-top: 12.5rem;
+    margin-left: 0rem;
+    padding-left: 0rem;
+}
+
+.sec2 p{
+    font-size: .625rem;
+}
+
+.sec3 p{
+    font-size: .625rem;
+}
+
+
+
+
+
+
+
+}
+
 /* 768px */
 
 @media (max-width:768px){
@@ -1792,136 +2051,137 @@ footer {
         
     }
         
-    footer .sec1{
-        height: 85%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: .625rem;
-    }   
+footer .sec1{
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .625rem;
+}   
         
-    .carreras{
-        margin:0;
-        margin-left: 1.25rem;
-    }
+.carreras{
+    margin:0;
+    margin-left: 1.25rem;
+}
         
-    .carreras h4{
-        margin-bottom: .625rem;
-        padding-bottom: .625rem;
+.carreras h4{
+    margin-bottom: .625rem;
+    padding-bottom: .625rem;
         
-    }
+}
         
-    .carreras li{
-        text-align: center;
-        list-style: none;
-        padding-top: .3125rem;
-    }
+.carreras li{
+    text-align: center;
+    list-style: none;
+    padding-top: .3125rem;
+}
         
-    .contacto{
-        margin-bottom: 2.5rem;
-    }
+.contacto{
+    margin-bottom: 2.5rem;
+}
         
-    .contacto h4{
-        margin-top: 1.875rem;
-        margin-bottom: 1.375rem;
-        padding-bottom: .625rem; 
-        border-bottom: 3px solid rgba(255, 255, 255, 0.514);
-    }
+.contacto h4{
+    margin-top: 1.875rem;
+    margin-bottom: 1.375rem;
+    padding-bottom: .625rem; 
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
         
-    .contacto p{
-        margin-bottom: .625rem;
-    }
+.contacto p{
+    margin-bottom: .625rem;
+    padding-left: 0rem;
+}
 
-    .contacto div{
-        display: flex;
-        text-align: center;
+.contacto div{
+    display: flex;
+    text-align: center;
         
-    }
+}
     
-    .contacto div img{
-        width: .9375rem;
-        height: .9375rem;
+.contacto div img{
+    width: .9375rem;
+    height: .9375rem;
         
-    }
+}
         
-    .contacto div p{
-        padding-left: .625rem;
-        font-size: .625rem;
+.contacto div p{
+    padding-left: .625rem;
+    font-size: .625rem;
         
-    }
+}
         
-    .instrumentoslist{
-        margin-bottom: 3.75rem;
-        font-family: "Roboto", sans-serif;
-    }
+.instrumentoslist{
+    margin-bottom: 3.75rem;
+    font-family: "Roboto", sans-serif;
+}
         
-    .instrumentoslist h4{
-        text-align: center;
-        margin-top: 1.875rem;
-        /* margin-bottom: .625rem; */
-        padding-bottom: .625rem;
-        font-family: "Roboto", sans-serif;
-        color: rgba(255, 255, 255, 0.76);
-        font-size: .75rem;
-        border-bottom: 3px solid rgba(255, 255, 255, 0.514);
-    }
-        
-        
-    .instrumentoslist li{
-        text-align: center;
-        list-style: none;
-        padding-top: .4063rem;
-        
-    }
-        
-    .instrumentoslist li a{
-        
-        text-decoration: none;
-        list-style: none;
-        color: rgba(255, 255, 255, 0.76);
-        font-size: .625rem;
-        
-    }
+.instrumentoslist h4{
+    text-align: center;
+    margin-top: 1.875rem;
+    /* margin-bottom: .625rem; */
+    padding-bottom: .625rem;
+    font-family: "Roboto", sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .75rem;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.514);
+}
         
         
-    .logosContacto{
-        position: relative;
-        top: .3125rem;
-        right: .625rem;
-    }
+.instrumentoslist li{
+    text-align: center;
+    list-style: none;
+    padding-top: .4063rem;
         
-    .logosContacto img{
-        width: 1.25rem;
-        height: 1.25rem;
-        display: block;
-    }
+}
+        
+.instrumentoslist li a{
+        
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: .625rem;
+        
+}
+        
+        
+.logosContacto{
+    position: relative;
+    top: .3125rem;
+    right: .625rem;
+}
+        
+.logosContacto img{
+    width: 1.25rem;
+    height: 1.25rem;
+    display: block;
+}
 
-    .sec2{
-        display: flex;
-        justify-content: center;
-        margin-top: .625rem;
-    }
+.sec2{
+    display: flex;
+    justify-content: center;
+    margin-top: .625rem;
+}
         
-    .sec2 div p{
-        font-size: .3125rem;
-    }
+.sec2 div p{
+    font-size: .3125rem;
+}
         
-    .sec2 div img{
-        width: .5625rem;
-        height: .5625rem;
-        margin: 0;
-        margin-bottom: 2px;
+.sec2 div img{
+    width: .5625rem;
+    height: .5625rem;
+    margin: 0;
+    margin-bottom: 2px;
         
-    }
+}
         
-    .sec3{
-        display: flex;
-        justify-content: center;
-    }
+.sec3{
+    display: flex;
+    justify-content: center;
+}
         
-    .sec3 div p{
-        font-size: .3125rem;
-    }
+.sec3 div p{
+    font-size: .3125rem;
+}
     
 
 }
