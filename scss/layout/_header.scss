@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263248;
+    div{
+        img{
+            width: 12.5rem;
+            height: 12.5rem;
+        }
+    }
+    .navBar ul{
+        display: flex;
+        gap: 1.875rem;
+        margin-right: 9.375rem;
+        font-family: "Roboto", sans-serif;            
+        li{ 
+            list-style: none;
+        }
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            font-size: 1.25rem;
+            &:hover{
+            color: rgba(64, 163, 163, 0.74);
+        }
+    }
+}
+
+}
